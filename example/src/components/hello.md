@@ -15,6 +15,8 @@ Vue Markdown component, can parse local or remote .md files and markdown strings
  clone https://github.com/qinkaiyuan/qing-markdown.git
  # 切换到演示项目
  cd qing-markdown/exampl
+ # 安装演示项目
+ npm install
  # 运行演示项目
  npm run serve
  ```
