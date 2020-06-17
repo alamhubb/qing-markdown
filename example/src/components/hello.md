@@ -1,7 +1,7 @@
 <h1 align="center">qing-markdown</h1>
 
 ### 说明
-本项目是一个可将本地或远程的 .md 文件、 markdown 字符串解析成 html 展示的 vue 组件
+本项目是一个可将本地或远程 .md 文件、 markdown 字符串解析成 html 展示的 vue 组件
 
 ### 演示项目
 * 地址：[qing-markdown 演示项目](https://www.qingchi1.com/md/qing-markdown)
@@ -102,7 +102,9 @@ chainWebpack: config => {
 ```
 
 ### 关联项目介绍
-* [qing-markdown-loader](http://opensource.org/licenses/MIT) 使 webpack 可以加载 .md 文件，加载 .md 文件，返回文件内容的字符串
+* [qing-markdown-loader](https://github.com/qinkaiyuan/qing-markdown-loader#qing-markdown-loader) 该项目是一个 webpack loader，加载 .md 文件，
+并返回文件内内容字符串的 webpack loader，以实现使 webpack 可加载 .md 文件的功能，
+ qing-markdown 使用这个项目实现加载 .md 文件功能
 
 ### License
 [MIT](http://opensource.org/licenses/MIT)
