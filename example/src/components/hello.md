@@ -68,8 +68,9 @@ export default class HelloWorld extends Vue {
     }
     ```
  * 需要安装配置 qing-markdown-loader，否则无法加载 .md 文件，[查看方式](https://github.com/qinkaiyuan/qing-markdown#%E6%B3%A8%E6%84%8F)
-
+ 
 3. 远程文件
+
     ```javascript
     export default class HelloWorld extends Vue {
        hello = ''
