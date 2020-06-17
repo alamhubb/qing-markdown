@@ -1,0 +1,52 @@
+{
+  "name": "qing-markdown",
+  "author": "qinkaiyuan",
+  "version": "1.0.2",
+  "description": "vue markdown components,support emote, local *.md files and markdown string",
+  "keywords": [
+    "vue markdown",
+    "markdown to html",
+    "md to html",
+    "marked-reader",
+    "markdown-reader",
+    "marked",
+    "markdown",
+    "reader",
+    "vue",
+    "vue-cli4"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/qinkaiyuan/qing-markdown#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qinkaiyuan/qing-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qinkaiyuan/qing-markdown/issues"
+  },
+  "files": [
+    "src/",
+    "package.json"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "qing-markdown-reader": "^1.0.1",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-typescript": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "ts-node": "^8.10.2",
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
