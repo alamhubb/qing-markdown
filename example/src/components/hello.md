@@ -106,7 +106,7 @@ chainWebpack: config => {
 
 ### 关联项目介绍
 * [qing-markdown-loader](https://github.com/qinkaiyuan/qing-markdown-loader#qing-markdown-loader) 该项目是一个 webpack loader，加载 .md 文件，
-并返回文件内内容字符串的 webpack loader，以实现使 webpack 可加载 .md 文件的功能，
+并返回文件内内容字符串，以实现使 webpack 可加载 .md 文件的功能，
  qing-markdown 使用这个项目实现加载 .md 文件功能
 
 ### License
