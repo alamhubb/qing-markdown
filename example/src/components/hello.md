@@ -27,14 +27,16 @@ npm install qing-markdown
 ```
 
 ### 快速上手
-```bash
-# 引入组件
-import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
-
-# 使用
+```html
 <template>
+    <!--// 编译为 <h1>hello world<h1>-->
     <q-markdown :src="hello"/>
 </template>
+
+```
+```javascript
+// 引入组件
+import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
 
 @Component({
     components: {QMarkdown}
@@ -44,21 +46,10 @@ export default class HelloWorld extends Vue {
 }
 ```
 
-### 使用方式
-* #### 模板 - 通用代码，结合以下三种不同的js代码实现本地、远程、字符串三种不同的 .md 加载方式
-```vue
-<template>
-    <q-markdown :src="hello"/>
-</template>
-```
-```javascript
-import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
-```
-* #### 不同的js代码
+* #### 结合以下三种不同的 js 代码实现本地、远程、字符串三种不同的 .md 加载方式
 1. 加载 markdown 字符串
     ```javascript
     // helloString = '# hello world'
-    // 编译为 <h1>hello world<h1>
     import helloString from './helloString'
   
     export default class HelloWorld extends Vue {
@@ -70,14 +61,13 @@ import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
     ```javascript
     // hello.md文件内内容为：# hello world
     // 所以 hello = '# hello world' 
-    // 编译为 <h1>hello world<h1>
     import hello from './hello.md'
     
     export default class HelloWorld extends Vue {
        hello = hello
     }
     ```
- * 需要安装配置 qing-markdown-loader，否则无法加载 .md 文件，[查看方式](#localmd)
+ * 需要安装配置 qing-markdown-loader，否则无法加载 .md 文件，[查看方式](https://github.com/qinkaiyuan/qing-markdown#%E6%B3%A8%E6%84%8F)
 
 3. 远程文件
     ```javascript
@@ -85,8 +75,7 @@ import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
        hello = ''
        created() {
          axios.get('https://www.*.com/markdown/hello.md').then(res => {
-           // this.hello = '# hello world' markdown文件
-           // 编译为 <h1>hello world<h1>
+           // this.hello = '# hello world' markdown文件内内容
            this.hello = res.data
          })
        }
