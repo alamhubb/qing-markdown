@@ -1,10 +1,10 @@
 <h1 align="center">qing-markdown</h1>
 
 ### 说明
-一个Vue组件，可以将本地或远程.md文件和markdown字符串解析为html以显示
+Vue组件，可以将本地或远程.md文件和markdown字符串解析为html以显示
 
 ### Introduce
-A vue component that can parse local or remote .md files and markdown strings into html for display
+Vue component that can parse local or remote .md files and markdown strings into html for display
 
 ### 演示项目
 * 地址：[qing-markdown 演示项目](https://www.qingchi1.com/md/qing-markdown)
