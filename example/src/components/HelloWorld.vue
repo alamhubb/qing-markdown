@@ -1,6 +1,11 @@
 <template>
     <div class="markdown-body">
+        <!-- 本地.md-->
         <q-markdown :text="mdHello"/>
+        <!-- 远程.md-->
+        <!-- <q-markdown :text="remoteMdHello"/>-->
+        <!-- markdown字符串-->
+        <!-- <q-markdown :text="stringHello"/>-->
     </div>
 </template>
 
@@ -24,8 +29,6 @@
     stringHello = helloString
 
     created() {
-      console.log(this.stringHello)
-      console.log(this.mdHello)
       axios.get('https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/markdown/hello.md').then(res => {
         this.remoteMdHello = res.data
       })
