@@ -37,7 +37,7 @@ npm install qing-markdown
 \`\`\`html
 <template>
     <!--// 编译为 <h1>hello world<h1>-->
-    <q-markdown :src="hello"/>
+    <q-markdown :text="hello"/>
 </template>
 
 \`\`\`
