@@ -7,7 +7,7 @@ Vue Markdown 组件，可以将本地或远程 .md 文件以及 markdown 字符�
 Vue Markdown component, parse local or remote .md files and markdown strings into HTML display
 
 ### 演示项目
-* 地址：[qing-markdown 演示项目](https://www.qingchi1.com/md/qing-markdown)
+* 地址：[qing-markdown 演示项目](https://www.qingchi1.com/out/qing-markdown)
 
 * 本地运行
  ```bash
@@ -105,8 +105,11 @@ chainWebpack: config => {
 ### 关联项目介绍
 * [qing-markdown-loader](https://github.com/qinkaiyuan/qing-markdown-loader#qing-markdown-loader) Webpack loader，加载 .md 文件，并返回文件内内容字符串，
 以实现使 webpack 可加载 .md 文件的功能，qing-markdown 使用这个项目实现加载 .md 文件功能
+
 * [qing-markdown-reader](https://github.com/qinkaiyuan/qing-markdown-reader#qing-markdown-reader) Markdown 字符串工具类，传入 markdown 字符串，返回 html 字符串，
 qing-markdown 使用这个项目实现将markdown字符串转换为html字符串
+
+* [vue-cli-plugin-qing-markdown](https://github.com/qinkaiyuan/vue-cli-plugin-qing-markdown#vue-cli-plugin-qing-markdown) qing-markdown 的 vue-cli 插件
 
 ### License
 [MIT](http://opensource.org/licenses/MIT)
