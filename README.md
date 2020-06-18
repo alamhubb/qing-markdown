@@ -4,7 +4,7 @@
 Vue Markdown 组件，可以将本地或远程 .md 文件以及 markdown 字符串解析为 HTML 显示
 
 ### Introduce
-Vue Markdown component, can parse local or remote .md files and markdown strings into HTML display
+Vue Markdown component, parse local or remote .md files and markdown strings into HTML display
 
 ### 演示项目
 * 地址：[qing-markdown 演示项目](https://www.qingchi1.com/md/qing-markdown)
@@ -24,6 +24,10 @@ Vue Markdown component, can parse local or remote .md files and markdown strings
 ### npm 安装
 ```bash
 npm install qing-markdown
+```
+### npm 安装
+```bash
+vue add qing-markdown
 ```
 
 ### 快速上手
