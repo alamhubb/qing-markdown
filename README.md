@@ -21,13 +21,15 @@ Vue Markdown component, parse local or remote .md files and markdown strings int
  npm run serve
  ```
 
-### npm 安装
-```bash
-npm install qing-markdown
-```
-### npm 安装
+### 安装
+* #### 推荐，vue-cli 方式，已自动配置 webpack loader
 ```bash
 vue add qing-markdown
+```
+
+* #### npm 方式，需手动配置 webpack loader
+```bash
+npm install qing-markdown
 ```
 
 ### 快速上手
@@ -71,7 +73,7 @@ export default class HelloWorld extends Vue {
        hello = hello
     }
     ```
- * 需要安装配置 qing-markdown-loader，否则无法加载 .md 文件，[查看方式](https://github.com/qinkaiyuan/qing-markdown#%E6%B3%A8%E6%84%8F)
+ * 非 vue-cli 方式安装，需要配置 qing-markdown-loader，否则无法加载 .md 文件，[查看方式](https://github.com/qinkaiyuan/qing-markdown#%E6%B3%A8%E6%84%8F)
  
 3. 远程文件
 
@@ -88,7 +90,7 @@ export default class HelloWorld extends Vue {
     ```
 
 ### 注意
-#### 读取本地 .md 文件方式，配置 loader，使webpack支持 .md 文件，vue-cli 方式
+#### 非 vue-cli 安装，读取本地 .md 文件方式，需要配置 loader，使webpack支持 .md 文件，vue-cli 方式
 ```bash
 # 安装 loader
 npm install qing-markdown-loader
@@ -96,7 +98,7 @@ npm install qing-markdown-loader
 # 配置 loader，vue.config.js 文件
 chainWebpack: config => {
   config.module
-    .rule('md').test(/\.md$/).use('md-loader').loader('qing-markdown-loader')
+    .rule('md').test(/\.md$/).use('qing-markdown-loader').loader('qing-markdown-loader')
 }
 ```
 
@@ -108,4 +110,3 @@ qing-markdown 使用这个项目实现将markdown字符串转换为html字符串
 
 ### License
 [MIT](http://opensource.org/licenses/MIT)
-# qinghaha
