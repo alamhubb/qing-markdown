@@ -12,7 +12,7 @@
   import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
 
   //@ts-ignore
-  import hello from './README.md'
+  import hello from '../../../README.md'
   import helloString from './helloString'
 
   @Component(
