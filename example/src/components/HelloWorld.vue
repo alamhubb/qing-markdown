@@ -3,9 +3,9 @@
         <!-- 本地.md-->
         <q-markdown :text="mdHello"/>
         <!-- 远程.md-->
-        <!-- <q-markdown :text="remoteMdHello"/>-->
+<!--         <q-markdown :text="remoteMdHello"/>-->
         <!-- markdown字符串-->
-        <!-- <q-markdown :text="stringHello"/>-->
+<!--         <q-markdown :text="stringHello"/>-->
     </div>
 </template>
 
