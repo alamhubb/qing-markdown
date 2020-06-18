@@ -18,20 +18,3 @@
     }
   }
 </script>
-
-
-
-
-
-<!--
-import hljs from "highlight.js";
-
-marked.setOptions({
-renderer: new marked.Renderer(),
-gfm: true,
-smartLists: true,
-smartypants: true,
-highlight(code) {
-return hljs.highlightAuto(code).value
-}
-})-->
