@@ -14,8 +14,8 @@
   import 'github-markdown-css/github-markdown.css'
   import 'highlight.js/styles/github.css'
   import axios from "@/plugins/axios";
+  //@ts-ignore
   import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
-
   //@ts-ignore
   import hello from '../../../README.md'
   import helloString from './helloString'
