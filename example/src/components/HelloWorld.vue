@@ -1,6 +1,6 @@
 <template>
     <div class="markdown-body">
-        <q-markdown :src="hello" />
+        <q-markdown :text="mdHello"/>
     </div>
 </template>
 
@@ -12,19 +12,23 @@
   import QMarkdown from 'qing-markdown/src/components/q-markdown/q-markdown'
 
   //@ts-ignore
-  import hello from '../../../README.md'
+  import hello from './README.md'
   import helloString from './helloString'
 
   @Component(
     {components: {QMarkdown}}
-    )
+  )
   export default class HelloWorld extends Vue {
-    hello = hello
+    mdHello = hello
+    remoteMdHello = ''
+    stringHello = helloString
+
     created() {
-      /*axios.get('https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/markdown/hello.md').then(res => {
-        console.log(res.data)
-        this.hello = res.data
-      })*/
+      console.log(this.stringHello)
+      console.log(this.mdHello)
+      axios.get('https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/markdown/hello.md').then(res => {
+        this.remoteMdHello = res.data
+      })
     }
   }
 </script>
