@@ -8,11 +8,11 @@
 
   @Component
   export default class QMarkdown extends Vue {
-    @Prop() private src: string
+    @Prop() private text: string
 
     get mdHtml() {
-      if (this.src) {
-        return MdReader.read(this.src)
+      if (this.text) {
+        return MdReader.read(this.text)
       }
       return ''
     }

@@ -1,7 +1,7 @@
 {
   "name": "qing-markdown",
   "author": "qinkaiyuan",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Vue Markdown component, parse local or remote .md files and markdown strings into HTML display",
   "keywords": [
     "vue markdown",
@@ -27,7 +27,8 @@
   },
   "files": [
     "src/",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "dependencies": {
     "core-js": "^3.6.5",
