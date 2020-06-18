@@ -1,10 +1,11 @@
 {
   "name": "qing-markdown",
   "author": "qinkaiyuan",
-  "version": "1.0.2",
-  "description": "vue markdown components,support emote, local *.md files and markdown string",
+  "version": "1.0.3",
+  "description": "Vue Markdown component, can parse .md files and markdown strings into HTML display",
   "keywords": [
     "vue markdown",
+    "markdown component",
     "markdown to html",
     "md to html",
     "marked-reader",
