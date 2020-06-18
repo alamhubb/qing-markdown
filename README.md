@@ -111,5 +111,12 @@ qing-markdown 使用这个项目实现将markdown字符串转换为html字符串
 
 * [vue-cli-plugin-qing-markdown](https://github.com/qinkaiyuan/vue-cli-plugin-qing-markdown#vue-cli-plugin-qing-markdown) qing-markdown 的 vue-cli 插件
 
+### 基于项目，感谢
+* [marked](https://github.com/markedjs/marked#marked) A markdown parser and compiler. Built for speed.
+
+* [Highlight.js](https://github.com/highlightjs/highlight.js#highlightjs) Highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server. It works with pretty much any markup, doesn’t depend on any framework, and has automatic language detection.
+
+* [github-markdown-css](https://github.com/sindresorhus/github-markdown-css#github-markdown-css) The minimal amount of CSS to replicate the GitHub Markdown style
+
 ### License
 [MIT](http://opensource.org/licenses/MIT)
